@@ -86,3 +86,10 @@ uninstall:
 	@echo "REMOVE share/sxiv/"
 	rm -rf $(DESTDIR)$(PREFIX)/share/sxiv
 
+desktop:
+	@echo "Desktop file"
+	desktop-file-install ./sxiv.desktop
+	update-desktop-database
+	xdg-mime default sxiv.desktop $(grep 'MimeType' sxvi.desktop | cut -d'=' -f2 | tr ';' ' ')
+
+

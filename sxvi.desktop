@@ -1,0 +1,21 @@
+[Desktop Entry]
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=sxiv
+
+# A comment which can/will be used as a tooltip
+Comment=Simple x Image Viewer
+
+# The executable of the application, possibly with arguments.
+Exec=sxiv
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/webp;image/x-bmp;image/x-pcx;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-tga;image/x-xbitmap;
+
